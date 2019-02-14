@@ -4,6 +4,8 @@
   "description": "first node app",
   "main": "index.js",
   "scripts": {
+    "go": "node go.js",
+    "launch": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/laurenlamonte/nodeApp/issues"
   },
-  "homepage": "https://github.com/laurenlamonte/nodeApp#readme"
+  "homepage": "https://github.com/laurenlamonte/nodeApp#readme",
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  }
 }
